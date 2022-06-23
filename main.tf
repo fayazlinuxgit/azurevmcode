@@ -1,3 +1,8 @@
+provider "azurerm" {
+
+features {} 
+
+} 
 
 #create resource group
 resource "azurerm_resource_group" "fayaz-res-group" {
