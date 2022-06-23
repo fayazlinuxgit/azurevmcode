@@ -1,3 +1,13 @@
+provider "azurerm" {
+  subscription_id = "62ffc0b3-5024-4990-bc41-b69451d2532c"
+  client_id       = "d9951fbb-c383-4cab-9056-5987ae25b31a"
+  #client_secret    = "664ca1c6-cdd4-4a3b-923b-30222288fd5f"
+  #client_secret    = "O1J8Q~CnQmkukvOsGjCKoHXf6_YuScENI9Ffwb2t"
+  client_secret = "Kw48Q~9FisauPAHL-GQwHO8_5gdl~sBmInQDmadY"
+  tenant_id     = "d0748657-f5a8-4d8b-8a16-b848c23ea8cb"
+
+   features {}
+}
 
 #create resource group
 resource "azurerm_resource_group" "fayaz-res-group" {
@@ -131,7 +141,8 @@ resource "azurerm_linux_virtual_machine" "myvm-test" {
   os_disk {
     name                 = "myOsDisk"
     caching              = "ReadWrite"
-    storage_account_type = "Premium_LRS"
+   # storage_account_type = "Premium_LRS"
+    storage_account_type = "Standard_LRS"
   }
 
   source_image_reference {
