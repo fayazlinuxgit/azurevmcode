@@ -1,0 +1,15 @@
+this is my file kindly choose 
+########################
+       SKU Details 
+######################## 
+
+1 VCPU 2GB RAM 
+2 VCPU 4GB RAM
+
+########################
+      Publisher are: 
+########################
+
+1.WINDOWs
+2.LINUX 
+3.CANOICAL 
