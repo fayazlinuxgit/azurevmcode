@@ -33,3 +33,6 @@ variable "virtual_network_name" {
 #variable "size" {
  # 
 #}
+
+
+fayaz
